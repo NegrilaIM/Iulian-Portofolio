@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "./Card";
 import "./Skills.css";
+import MySkills from "./SkillsAPI";
+
 
 function Skills() {
   return (
@@ -12,7 +14,11 @@ function Skills() {
             <h1>Here are my skills</h1>
           </div>
           <div className="content grid">
-            <Card />
+            {MySkills.map((skill,index) => {
+              return (
+                <Card key={index}  image={skill.image} title={skill.title} experience={skill.experience}/>
+              )
+            })}
           </div>
         </div>
       </section>
