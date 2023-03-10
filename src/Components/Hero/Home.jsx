@@ -1,9 +1,10 @@
 import React from "react";
 import "./Home.css";
 import me from "../../Assets/me.png";
-import skill1 from "../../Assets/skill1.png";
-import skill2 from "../../Assets/skill2.png";
-import skill3 from "../../Assets/skill3.png";
+import skill1 from "../../Assets/JAVASCRIPT.png";
+import skill2 from "../../Assets/REACT.png";
+import skill3 from "../../Assets/VUE.png";
+
 import { Typewriter } from "react-simple-typewriter";
 
 function Home() {
@@ -30,35 +31,47 @@ function Home() {
                 />
               </span>
             </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, expedita ipsum aut impedit sequi, voluptas culpa, quibusdam maxime sint quos natus. Eligendi fugiat maxime quisquam magnam nostrum incidunt sit provident.</p>
-           <div className="hero_btn d_flex">
-            <div className="col_1">
-              <h4>YOU CAN FIND ME</h4>
-              <div className="button">
+            <p>
+              "Just don t give up trying to do what you really want to do. Where
+              there is love and inspiration, I don t think you can go wrong"
+            </p>
+            <br />
+            <p>
+              Hello. I'm a Frontend Developer with over 2 years experience. I
+              started this journey in 2021 out of pure curiosity, with
+              HTML/CSS/JavaScript basics. Now, I have strong knowledge in
+              VueJs/ReactJs frameworks, as well as a fairly developed knowledge
+              package in different libraries
+              (Bootstrap/Tailwind/Quasar/MUI/Redux. etc).
+            </p>
+            <div className="hero_btn d_flex">
+              <div className="col_1">
+                <h4>YOU CAN FIND ME</h4>
+                <div className="button">
+                  <button className="btn_shadow">
+                    <i className="fab fa-facebook-f"></i>
+                  </button>
+                  <button className="btn_shadow">
+                    <i className="fab fa-instagram"></i>
+                  </button>
+                  <button className="btn_shadow">
+                    <i className="fab fa-linkedin-in"></i>
+                  </button>
+                </div>
+              </div>
+              <div className="col_1">
+                <h4>BEST SKILL ON</h4>
                 <button className="btn_shadow">
-                  <i className="fab fa-facebook-f"></i>
+                  <img src={skill1} alt="" />
                 </button>
                 <button className="btn_shadow">
-                  <i className="fab fa-instagram"></i>
+                  <img src={skill2} alt="" />
                 </button>
                 <button className="btn_shadow">
-                  <i className="fab fa-linkedin-in"></i>
+                  <img src={skill3} alt="" />
                 </button>
               </div>
             </div>
-            <div className="col_1">
-              <h4>BEST SKILL ON</h4>
-              <button className="btn_shadow">
-                  <img src={skill1} alt="" />
-              </button>
-              <button className="btn_shadow">
-                  <img src={skill2} alt="" />
-              </button>
-              <button className="btn_shadow">
-                  <img src={skill3} alt="" />
-              </button>
-            </div>
-           </div>
           </div>
           <div className="right">
             <div className="right_img">
