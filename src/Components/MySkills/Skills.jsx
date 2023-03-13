@@ -7,7 +7,7 @@ import MySkills from "./SkillsAPI";
 function Skills() {
   return (
     <>
-      <section className="skills top" id="skills">
+      <section className="skills top " id="skills">
         <div className="container">
           <div className="heading">
             <h4>SKILLS</h4>
