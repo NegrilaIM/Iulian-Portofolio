@@ -4,7 +4,7 @@ const Card = ({image, title, experience}) => {
 
   return (
     <>
-      <div className="box btn_shadow">
+      <div className="box btn_shadow ">
         <img src={image} alt="" />
         <h2>{title}</h2>
         <p>{experience}</p>

@@ -9,11 +9,19 @@
 }
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f0f0f0;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
@@ -26,6 +34,9 @@ body {
 }
 .f_flex {
   display:flex;
+}
+.hide {
+  display: none;
 }
 
 a {
@@ -116,13 +127,15 @@ input {
   border: 3px solid #e2e8ec;
   margin-bottom: 20px;
 }
+.image {
+  object-fit: contain;
+}
 .f_flex_center {
   justify-content: center;
 }
 footer {
   margin:4%  0 2% 0;
 }
-
 @media (max-width: 768px) {
   .grid{
     grid-template-columns: repeat(2,1fr);
