@@ -15,7 +15,7 @@ const WorkExperience = () => {
                     <div className="left">
                         <div className="heading">
                             <h4 >2012-2022</h4>
-                            <h1 >Eduaction</h1>
+                            <h1 >Education</h1>
                         </div>
                         <div className="content">
                             {Achievements.map((ach, index) => {

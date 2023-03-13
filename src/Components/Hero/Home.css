@@ -19,6 +19,7 @@
 }
 .hero h2 span {
     color: black;
+    font-size: 45px;
 }
 .hero p {
     color : #878e99;
@@ -66,4 +67,29 @@
     position: absolute;
     bottom: 0;
     width: 510px;
+}
+@media (max-width:550px) {
+    .hero .right_img img {
+        right: 10%;
+        width: 100%;
+        object-fit: contain;
+        
+    }
+}
+
+@media (max-width:768px) {
+    .hero .right,
+    .hero .left {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .hero .f_flex {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .hero .right_img {
+        width: 92%;
+        height: 54vh;
+
+    }
 }
