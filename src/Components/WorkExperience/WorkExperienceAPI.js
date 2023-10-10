@@ -28,7 +28,7 @@ const Achievements = [{
 {
     id: 4,
     category:"experience",
-    year: '2021 - On going',
+    year: '2020 - On going',
     title: 'ReactJs/VueJs Developer',
     description: 'Developing web pages.',
     rate: '5/5',

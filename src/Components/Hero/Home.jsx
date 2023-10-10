@@ -37,12 +37,10 @@ function Home() {
             </p>
             <br />
             <p>
-              Hello. I'm a Frontend Developer with over 2 years experience. I
-              started this journey in 2021 out of pure curiosity, with
-              HTML/CSS/JavaScript basics. Now, I have strong knowledge in
-              VueJs/ReactJs frameworks, as well as a fairly developed knowledge
-              package in different libraries
-              (Bootstrap/Tailwind/Quasar/MUI/Redux. etc).
+            - Hi there! I'm a passionate Frontend Developer with over 3 years of experience, specializing in building interactive and efficient web interfaces. With a strong background in technologies like React, Redux, HTML, CSS, and Hooks, I've created complex, scalable, and user-friendly applications.
+            <br />- I've worked extensively with libraries such as Bootstrap, Tailwind, and Material UI, bringing modern and intuitive designs to my projects. My approach is rooted in using best practices to develop user-friendly and easily understandable interfaces.
+            <br />- I'm always seeking new challenges and learning new technologies to enhance my skills. I'm a dedicated team player with meticulous attention to detail and a passion for creating innovative web experiences. I'm open to new opportunities for growth and collaboration.
+            <br />- Let's work together to create captivating and successful web products!
             </p>
             <div className="hero_btn d_flex">
               <div className="col_1">
